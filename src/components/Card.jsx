@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ imie, location, food, id }) {
+function Card({ name, location, food, id }) {
 	return (
 		<div className="container mx-auto px-4 shadow-2xl ml-20 w-5/6 h-80 flex flex-col justify-center hover:animate-pulse">
 			<div className="flex justify-center">
@@ -10,7 +10,7 @@ function Card({ imie, location, food, id }) {
 				/>
 			</div>
 			<div className="flex justify-center bg-[#1da1f2] content-center ">
-				<h2>{imie}</h2>
+				<h2>{name}</h2>
 			</div>
 			<div className="flex justify-center bg-[#1da1f2] content-center ">
 				<p>{location}</p>

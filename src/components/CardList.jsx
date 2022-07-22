@@ -7,7 +7,7 @@ function CardList({ Cats }) {
 			<Card
 				key={i}
 				id={Cats[i].id}
-				imie={Cats[i].imie}
+				name={Cats[i].name}
 				location={Cats[i].location}
 				food={Cats[i].food}
 			/>
